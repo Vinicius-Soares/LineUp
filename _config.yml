@@ -135,7 +135,7 @@ exclude:
 collections:
   pages:
     output: true
-    permalink: /:path/
+    permalink: https://vinicius-soares.github.io/LineUp/
 
 # Markdown rendering
 markdown: kramdown
