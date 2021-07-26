@@ -26,7 +26,6 @@ export default function App()
 
       {/* Tasks */}
       <View style={styles.tasksWrapper}>
-        <Text style={styles.sectionTitle}>Note</Text>
         
         <View style={styles.items}>
           {/* Lista começa */}
@@ -50,7 +49,7 @@ export default function App()
         behavior={Platform.OS == "ios" ? "padding" : "height"}
         style={styles.writeNotesWrapper}
       >
-        <TextInput style={styles.input} placeholder={'Write a note'} value={note} onChangeText={text => setNote(text)}/>
+        <TextInput style={styles.input} placeholder={'Take a note...'} value={note} onChangeText={text => setNote(text)}/>
       
         <TouchableOpacity onPress={() => handleAddNote()}>
           <View style={styles.addWrapper}>
@@ -69,32 +68,28 @@ const styles = StyleSheet.create({
     backgroundColor: '#E8EAED',
   },
   tasksWrapper: {
-    paddingTop: 80,
+    paddingTop: '30%',
     paddingHorizontal: 20,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: 'bold',
   },
   items: {
     marginTop: 30,
   },
   writeNotesWrapper: {
     position: 'absolute',
-    bottom: 60,
+    bottom: '80%',
     width: '100%',
     flexDirection: 'row',
-    justifyContent: 'space-around',
+    justifyContent: 'flex-end',
     alignItems: 'center',
   },
   input: {
     paddingVertical: 15,
     paddingHorizontal: 15,
     backgroundColor: '#FFF',
-    borderRadius: 60,
-    borderColor: '#C0C0C0',
+    borderRadius: 0,
+    borderColor: 'black',
     borderWidth: 1,
-    width: 250,
+    width: '80%',
   },
   addWrapper: {
     width: 60,

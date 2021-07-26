@@ -7,7 +7,6 @@ const Note = (props) =>
     return (
         <View style={StyleSheet.item}>
                 <View style={styles.itemLeft}>
-                    <View style={styles.square}></View>
                     <Text style={styles.intemText}>{props.text}</Text>
                 </View>
                 <View style={styles.circular}></View>
@@ -30,16 +29,12 @@ const styles = StyleSheet.create({
         alignItems: "center",
         flexWrap: 'wrap',
     },
-    square: {
-        width: 24,
-        height: 24,
-        backgroundColor: '#55BCF6',
-        opacity: 0.4,
-        borderRadius: 5,
-        marginRight: 15,
-    },
     intemText: {
-        maxWidth: '80%',
+        paddingVertical: 15,
+        paddingHorizontal: 15,
+        maxWidth: '100%',
+        borderColor: 'blue',
+        borderWidth: 2,
     },
     circular: {
         width: 12,
