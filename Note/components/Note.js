@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 15,
         maxWidth: '100%',
         borderColor: 'blue',
+        borderRadius: 20,
         borderWidth: 2,
     },
     circular: {

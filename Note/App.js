@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFF',
     borderRadius: 0,
     borderColor: 'black',
-    borderWidth: 1,
+    borderWidth: 3,
     width: '80%',
   },
   addWrapper: {
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     borderRadius: 60,
     alignItems: 'center',
     borderColor: '#C0C0C0',
-    borderWidth: 1,
+    borderWidth: 3,
   },
   addText: {
     marginTop: '30%',
