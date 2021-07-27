@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#E8EAED',
   },
   tasksWrapper: {
-    paddingTop: '30%',
+    paddingTop: '25%',
     paddingHorizontal: 20,
   },
   items: {
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
   },
   writeNotesWrapper: {
     position: 'absolute',
-    bottom: '80%',
+    bottom: '85%',
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'flex-end',
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     borderRadius: 0,
     borderColor: 'black',
     borderWidth: 3,
-    width: '80%',
+    width: '85%',
   },
   addWrapper: {
     width: 60,
@@ -97,10 +97,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFF',
     borderRadius: 60,
     alignItems: 'center',
-    borderColor: '#C0C0C0',
+    borderColor: 'black',
     borderWidth: 3,
   },
   addText: {
-    marginTop: '30%',
+    marginTop: '10%',
+    fontSize: 30
   },
 });
