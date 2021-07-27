@@ -9,7 +9,6 @@ const Note = (props) =>
                 <View style={styles.itemLeft}>
                     <Text style={styles.intemText}>{props.text}</Text>
                 </View>
-                <View style={styles.circular}></View>
         </View>
     )
 }
@@ -37,13 +36,6 @@ const styles = StyleSheet.create({
         borderRadius: 20,
         borderWidth: 2,
     },
-    circular: {
-        width: 12,
-        height: 12,
-        borderColor: '#55BCF6',
-        borderWidth: 2,
-        borderRadius: 5,
-    }, 
 });
 
 export default Note;
